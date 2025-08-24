@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <meta name="description" content="Junior web developer portfolio site" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header>
+      <nav>
+        <a href="#">MyLogo</a>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="hero">
+        <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+        <p>Junior Web Developer — I build responsive and accessible websites.</p>
+        <button id="cta-projects">View Projects</button>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid" id="projectGrid"></div>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I'm a self-taught web developer learning HTML, CSS, and JavaScript.
+          I enjoy building small projects and improving step by step.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:you@example.com">📧 Email Me</a></li>
+          <li><a href="https://github.com/your-username" target="_blank">💻 GitHub</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <small>© <span id="year"></span> Your Name</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
